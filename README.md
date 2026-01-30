@@ -16,7 +16,11 @@ This project implements a **Moore Finite State Machine (FSM)** to control traffi
 ## FSM Description
 - Each state corresponds to a specific traffic signal configuration  
 - Fixed delays ensure safe transitions between traffic directions  
-- After completing all states, the FSM loops back to the initial state  
+- After completing all states, the FSM loops back to the initial state
+
+   ## Logic Diagram
+  ! [Logic Diagram]<img width="1045" height="471" alt="Logic_Diagram" src="https://github.com/user-attachments/assets/58a2d3c2-b425-4ddd-aa83-0c66aa5bdcb4" />
+
 
 ---
 
@@ -25,7 +29,9 @@ The FSM consists of sequential states that control traffic movement across:
 - Main road
 - Turn road
 - Side road
+  
 
+<img width="810" height="467" alt="State_Diagram_project" src="https://github.com/user-attachments/assets/28f19c1d-6ff5-42b1-ada9-1022cac14025" />
 
 ---
 
@@ -40,7 +46,11 @@ The FSM consists of sequential states that control traffic movement across:
 ## Testbench & Verification
 - Developed a Verilog testbench to verify FSM operation  
 - Simulated clock, reset, and state transitions  
-- Verified correct output behavior using waveform analysis  
+- Verified correct output behavior using waveform analysis
+
+## Output Waveforms
+<img width="625" height="250" alt="image" src="https://github.com/user-attachments/assets/804d842a-9352-4ed8-a2dd-e58ff15d1fce" />
+
 
 ---
 
